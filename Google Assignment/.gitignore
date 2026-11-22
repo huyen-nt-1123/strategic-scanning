@@ -1,0 +1,7 @@
+# Python cache files
+__pycache__/
+*.pyc
+# Notebook autosave copies
+.ipynb_checkpoints/
+# macOS folder metadata
+.DS_Store
