@@ -1,0 +1,49 @@
+term,group,note
+child*,child_generic,"child, children, childhood, childcare"
+kid,child_generic,
+kids,child_generic,"not kid*, which would match kidney"
+minor,child_generic,usually teens too
+minors,child_generic,usually teens too
+infant*,age_0_2,
+baby,age_0_2,
+babies,age_0_2,
+newborn*,age_0_2,
+toddler*,age_0_2,
+1-year-old*,age_0_2,
+2-year-old*,age_0_2,
+one-year-old*,age_0_2,
+two-year-old*,age_0_2,
+preschool*,age_3_5,
+pre-school*,age_3_5,
+pre-k,age_3_5,
+kindergarten*,age_3_5,
+nursery,age_3_5,
+nurseries,age_3_5,
+early childhood,age_3_5,"covers 0-8 in research use; counted in 3-5 as its most common meaning"
+early years,age_3_5,
+young child*,age_3_5,"young child, young children"
+3-year-old*,age_3_5,
+4-year-old*,age_3_5,
+5-year-old*,age_3_5,
+three-year-old*,age_3_5,
+four-year-old*,age_3_5,
+five-year-old*,age_3_5,
+primary school*,age_6_8,"UK primary goes to age 11; kept as the nearest school term"
+elementary school*,age_6_8,"US elementary goes to age 11; same"
+first grade*,age_6_8,
+second grade*,age_6_8,
+third grade*,age_6_8,
+key stage 1,age_6_8,
+6-year-old*,age_6_8,
+7-year-old*,age_6_8,
+8-year-old*,age_6_8,
+six-year-old*,age_6_8,
+seven-year-old*,age_6_8,
+eight-year-old*,age_6_8,
+Gen Alpha*,gen_alpha,
+Generation Alpha,gen_alpha,
+K-12,school_generic,"school years, age not given (US kindergarten to grade 12)"
+K12,school_generic,same
+pupil*,school_generic,"school pupils, age not given"
+classroom*,school_generic,"school setting, age not given"
+schools,school_generic,"plural only: 'AI in schools' is the generic policy use; singular 'school' also matches startup school, medical school"

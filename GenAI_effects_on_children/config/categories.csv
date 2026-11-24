@@ -1,0 +1,199 @@
+term,category,pestle,note
+educat*,learning and school,S,"education, educational, educator, educators (education* would miss educator)"
+school*,learning and school,S,"school, schools, schooling; not preschool (other word)"
+student*,learning and school,S,
+teacher*,learning and school,S,
+teaching,learning and school,S,
+tutor*,learning and school,S,"tutor, tutoring, tutors"
+homework,learning and school,S,
+curricul*,learning and school,S,"curriculum, curricula, curricular"
+lesson*,learning and school,S,
+classroom*,learning and school,S,
+mathematic*,learning and school,S,
+math,learning and school,S,
+maths,learning and school,S,
+STEM education,learning and school,S,"not STEM alone: matching ignores case, so it would match stem cells"
+STEM learning,learning and school,S,
+learning outcome*,learning and school,S,"not 'learning' alone: it would match machine learning and deep learning"
+academic achievement,learning and school,S,
+academic performance,learning and school,S,
+literacy,language and cognitive development,S,"also 'early literacy', 'AI literacy' (the second is a weak match, check its share)"
+vocabulary,language and cognitive development,S,
+language development,language and cognitive development,S,"not 'language' alone: it would match large language model"
+language acquisition,language and cognitive development,S,
+language skill*,language and cognitive development,S,
+speech development,language and cognitive development,S,"not 'speech' alone: it would match speech recognition"
+speech and language,language and cognitive development,S,
+reading skill*,language and cognitive development,S,
+storytelling,language and cognitive development,S,
+bilingual*,language and cognitive development,S,
+cognitive,language and cognitive development,S,
+cognition,language and cognitive development,S,
+executive function*,language and cognitive development,S,
+attention span*,language and cognitive development,S,
+problem solving,language and cognitive development,S,"space or hyphen both match"
+critical thinking,language and cognitive development,S,
+creativity,language and cognitive development,S,
+theory of mind,language and cognitive development,S,
+brain development,language and cognitive development,S,
+mental health,socio-emotional and mental health,S,
+wellbeing,socio-emotional and mental health,S,
+well-being,socio-emotional and mental health,S,"space or hyphen both match"
+emotion*,socio-emotional and mental health,S,"emotion, emotional, emotions"
+social-emotional,socio-emotional and mental health,S,
+socioemotional,socio-emotional and mental health,S,
+socio-emotional,socio-emotional and mental health,S,
+social skill*,socio-emotional and mental health,S,
+social development,socio-emotional and mental health,S,
+empathy,socio-emotional and mental health,S,
+anxiety,socio-emotional and mental health,S,
+depress*,socio-emotional and mental health,S,"depression, depressive, depressed"
+loneliness,socio-emotional and mental health,S,
+lonely,socio-emotional and mental health,S,
+attachment,socio-emotional and mental health,S,
+self-esteem,socio-emotional and mental health,S,
+friendship*,socio-emotional and mental health,S,
+companion*,AI companions and toys,T,"companion, companions, companionship"
+toy,AI companions and toys,T,"not toy*: it would match Toyota"
+toys,AI companions and toys,T,
+doll,AI companions and toys,T,
+dolls,AI companions and toys,T,
+teddy,AI companions and toys,T,
+plush*,AI companions and toys,T,
+social robot*,AI companions and toys,T,"replaces robot* (24 Nov): in a sample of 25 robot* items about 10 were companion or social robots, the rest classroom robotics, robots in general, or spam"
+companion robot*,AI companions and toys,T,
+robot companion*,AI companions and toys,T,
+robot friend*,AI companions and toys,T,
+robot toy*,AI companions and toys,T,
+robotic toy*,AI companions and toys,T,
+toy robot*,AI companions and toys,T,
+robot pet*,AI companions and toys,T,
+robotic pet*,AI companions and toys,T,
+pet robot*,AI companions and toys,T,
+robot dog*,AI companions and toys,T,
+robotic dog*,AI companions and toys,T,
+robot pupp*,AI companions and toys,T,
+socially assistive robot*,AI companions and toys,T,
+relational robot*,AI companions and toys,T,
+humanoid robot*,AI companions and toys,T,"humanoid robots in studies with children are mostly social robots (NAO, Pepper)"
+child-robot interaction*,AI companions and toys,T,
+voice assistant*,AI companions and toys,T,also an AI term (config/ai_terms.csv)
+smart speaker*,AI companions and toys,T,also an AI term (config/ai_terms.csv)
+virtual friend*,AI companions and toys,T,
+imaginary friend*,AI companions and toys,T,
+digital friend*,AI companions and toys,T,
+parasocial,AI companions and toys,T,
+privacy,privacy and data,L,
+personal data,privacy and data,L,
+personal information,privacy and data,L,
+data protection,privacy and data,L,
+data collection,privacy and data,L,
+children's data,privacy and data,L,
+parental consent,privacy and data,L,"not consent alone: it would match 'informed consent' of studies"
+COPPA,privacy and data,L,US children's online privacy law
+GDPR,privacy and data,L,
+surveillance,privacy and data,L,
+biometric*,privacy and data,L,
+facial recognition,privacy and data,L,
+data breach*,privacy and data,L,
+safety,safety and harmful content,S,"broad: also 'patient safety', check its share"
+online safety,safety and harmful content,S,
+harm,safety and harmful content,S,"not harm*: it would match harmony, harmless"
+harms,safety and harmful content,S,
+harmful,safety and harmful content,S,
+abuse,safety and harmful content,S,
+CSAM,safety and harmful content,S,child sexual abuse material
+exploitation,safety and harmful content,S,
+grooming,safety and harmful content,S,
+deepfake*,safety and harmful content,S,also an AI term (config/ai_terms.csv)
+nudif*,safety and harmful content,S,also an AI term (config/ai_terms.csv)
+inappropriate content,safety and harmful content,S,
+explicit content,safety and harmful content,S,
+sexual content,safety and harmful content,S,
+misinformation,safety and harmful content,S,
+disinformation,safety and harmful content,S,
+self-harm,safety and harmful content,S,
+suicid*,safety and harmful content,S,
+bully*,safety and harmful content,S,"bully, bullying"
+cyberbully*,safety and harmful content,S,
+predator*,safety and harmful content,S,
+scam*,safety and harmful content,S,
+screen time,screen time and play,S,
+screentime,screen time and play,S,
+screen use,screen time and play,S,
+screen exposure,screen time and play,S,
+media use,screen time and play,S,"also 'digital media use'"
+device use,screen time and play,S,
+playtime,screen time and play,S,"not 'play' alone: it would match 'play a role'"
+play time,screen time and play,S,
+free play,screen time and play,S,
+pretend play,screen time and play,S,
+outdoor play,screen time and play,S,
+play-based,screen time and play,S,
+video game*,screen time and play,S,
+gaming,screen time and play,S,
+tablet*,screen time and play,S,"tablet, tablets; also pills in medical texts, check its share"
+smartphone*,screen time and play,S,
+touchscreen*,screen time and play,S,
+sedentary,screen time and play,S,
+physical activity,screen time and play,S,
+sleep,screen time and play,S,
+parent*,parenting,S,"parent, parents, parental, parenting; broad: most studies of children mention parents, check its share"
+mother*,parenting,S,
+father*,parenting,S,
+family,parenting,S,"not famil*: it would match familiar"
+families,parenting,S,
+caregiver*,parenting,S,
+guardian*,parenting,S,
+co-viewing,parenting,S,
+joint media engagement,parenting,S,
+regulat*,regulation and policy,P,"regulation, regulator, regulatory; also 'emotion regulation', check its share"
+legislat*,regulation and policy,P,
+law,regulation and policy,P,
+laws,regulation and policy,P,
+lawmaker*,regulation and policy,P,
+lawsuit*,regulation and policy,P,
+ban,regulation and policy,P,"not ban*: it would match bank, band"
+bans,regulation and policy,P,
+banned,regulation and policy,P,
+banning,regulation and policy,P,
+policy,regulation and policy,P,
+policies,regulation and policy,P,
+policymaker*,regulation and policy,P,
+government*,regulation and policy,P,
+ministry,regulation and policy,P,
+guideline*,regulation and policy,P,
+guidance,regulation and policy,P,
+AI Act,regulation and policy,P,EU law
+Online Safety Act,regulation and policy,P,UK law
+age verification,regulation and policy,P,
+age assurance,regulation and policy,P,
+age-appropriate design,regulation and policy,P,
+FTC,regulation and policy,P,US Federal Trade Commission
+attorney general,regulation and policy,P,
+compliance,regulation and policy,P,
+inequalit*,inequality and access,E,
+inequit*,inequality and access,E,
+equity,inequality and access,E,
+digital divide,inequality and access,E,
+equal access,inequality and access,E,
+unequal access,inequality and access,E,
+low-income,inequality and access,E,space or hyphen both match
+poverty,inequality and access,E,
+disadvantaged,inequality and access,E,
+underserved,inequality and access,E,
+rural,inequality and access,E,
+socioeconomic,inequality and access,E,
+socio-economic,inequality and access,E,
+afford*,inequality and access,E,"affordable, affordability, afford"
+global south,inequality and access,E,
+developing countr*,inequality and access,E,
+LMIC*,inequality and access,E,low- and middle-income countries
+disabilit*,inequality and access,E,
+special educational needs,inequality and access,E,
+social inclusion,inequality and access,E,"not inclusion alone: it would match 'inclusion criteria' of reviews"
+digital inclusion,inequality and access,E,
+inclusive education,inequality and access,E,
+inclusive,inequality and access,E,
+accessibility,inequality and access,E,
+marginali*,inequality and access,E,"marginalised, marginalized"

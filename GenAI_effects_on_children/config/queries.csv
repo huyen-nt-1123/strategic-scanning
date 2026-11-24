@@ -1,0 +1,13 @@
+collector,query
+news,"intitle:AI (toddler OR toddlers OR preschool OR preschoolers OR kindergarten OR ""young children"")"
+news,intitle:AI (toy OR toys OR companion OR companions) (kids OR children OR child)
+news,"intitle:AI (""early childhood"" OR ""early years"" OR ""primary school"" OR ""elementary school"" OR kindergarten)"
+news,"intitle:AI (""Gen Alpha"" OR ""Generation Alpha"")"
+news,"intitle:AI (parents OR parenting) (toddler OR toddlers OR preschooler OR ""young child"" OR ""young children"" OR ""little kids"")"
+policy,"intitle:AI (children OR child OR ""early childhood"" OR kids)"
+academic_openalex,"(""generative AI"" OR ""generative artificial intelligence"" OR ChatGPT OR ""large language model"" OR chatbot OR ""conversational agent"") AND (""young children"" OR preschool OR kindergarten OR ""early childhood"" OR toddler OR infant)"
+academic_openalex,"(""generative AI"" OR ""generative artificial intelligence"" OR ChatGPT OR ""large language model"" OR chatbot) AND (""primary school"" OR ""elementary school"")"
+academic_openalex,"(""AI toy"" OR ""smart toy"" OR ""AI companion"" OR ""AI-powered toy"") AND (children OR child OR kids)"
+academic_pubmed,"(""generative AI""[tiab] OR ""generative artificial intelligence""[tiab] OR ChatGPT[tiab] OR ""large language model*""[tiab] OR chatbot*[tiab] OR ""conversational agent*""[tiab]) AND (preschool*[tiab] OR toddler*[tiab] OR kindergarten*[tiab] OR ""early childhood""[tiab] OR ""young child*""[tiab] OR ""primary school*""[tiab] OR ""elementary school*""[tiab])"
+academic_arxiv,"(all:children OR all:child OR all:kids OR all:preschool OR all:kindergarten) AND (all:""large language model"" OR all:chatbot OR all:""generative AI"" OR all:ChatGPT OR all:""conversational agent"")"
+policy,"(""generative AI"" OR ""artificial intelligence"" OR chatbot) (children OR child OR ""early childhood"")"

@@ -1,0 +1,44 @@
+source,topic,version,query
+news,genai_young,current,"(""generative AI"" OR ChatGPT OR ""AI chatbot"") (toddler OR toddlers OR preschool OR kindergarten OR ""young children"")"
+news,genai_young,intitle,"intitle:AI (toddler OR toddlers OR preschool OR preschoolers OR kindergarten OR ""young children"")"
+news,toys,current,"(""AI toy"" OR ""AI toys"" OR ""AI companion"" OR ""AI companions"") (kids OR children OR child)"
+news,toys,intitle,"intitle:AI (toy OR toys OR companion OR companions) (kids OR children OR child)"
+news,early_school,current,"(AI OR ChatGPT OR chatbot) (""early childhood"" OR ""early years"" OR ""primary school"" OR ""elementary school"")"
+news,early_school,specific,"(""generative AI"" OR ChatGPT OR ""AI chatbot"" OR ""AI tools"") (""early childhood"" OR ""early years"" OR ""primary school"" OR ""elementary school"")"
+news,early_school,intitle,"intitle:AI (""early childhood"" OR ""early years"" OR ""primary school"" OR ""elementary school"" OR kindergarten)"
+news,gen_alpha,current,"""Gen Alpha"" (AI OR ChatGPT OR chatbot)"
+news,gen_alpha,intitle,"intitle:AI (""Gen Alpha"" OR ""Generation Alpha"")"
+news,parents,current,"(AI OR ChatGPT OR chatbot) (parents OR parenting) (toddler OR preschooler OR ""young child"" OR ""little kids"")"
+news,parents,specific,"(""AI chatbot"" OR ChatGPT OR ""generative AI"" OR ""AI toy"") (parents OR parenting) (toddler OR preschooler OR ""young child"" OR ""little kids"")"
+news,parents,intitle,"intitle:AI (parents OR parenting) (toddler OR toddlers OR preschooler OR ""young child"" OR ""young children"" OR ""little kids"")"
+policy,all,current,"(""generative AI"" OR ""artificial intelligence"" OR chatbot) (children OR child OR ""early childhood"")"
+policy,all,specific,"(""generative AI"" OR chatbot OR chatbots OR ChatGPT OR ""AI companion"" OR ""AI toys"") (children OR child OR ""early childhood"")"
+policy,all,intitle,"intitle:AI (children OR child OR ""early childhood"" OR kids)"
+openalex,genai_young,current,generative artificial intelligence young children
+openalex,early_ed,current,ChatGPT early childhood education
+openalex,agents,current,conversational agent preschool children
+openalex,llm_dev,current,large language model children development
+openalex,toys,current,AI toys children
+openalex,primary,current,generative AI primary school pupils
+openalex,young,boolean,"(""generative AI"" OR ""generative artificial intelligence"" OR ChatGPT OR ""large language model"" OR chatbot OR ""conversational agent"") AND (""young children"" OR preschool OR kindergarten OR ""early childhood"" OR toddler OR infant)"
+openalex,primary,boolean,"(""generative AI"" OR ""generative artificial intelligence"" OR ChatGPT OR ""large language model"" OR chatbot) AND (""primary school"" OR ""elementary school"")"
+openalex,toys,boolean,"(""AI toy"" OR ""smart toy"" OR ""AI companion"" OR ""AI-powered toy"") AND (children OR child OR kids)"
+pubmed,genai_young,current,generative artificial intelligence young children
+pubmed,early_ed,current,ChatGPT early childhood education
+pubmed,agents,current,conversational agent preschool children
+pubmed,llm_dev,current,large language model children development
+pubmed,toys,current,AI toys children
+pubmed,primary,current,generative AI primary school pupils
+pubmed,all,fields,"(""generative AI""[tiab] OR ""generative artificial intelligence""[tiab] OR ChatGPT[tiab] OR ""large language model*""[tiab] OR chatbot*[tiab] OR ""conversational agent*""[tiab]) AND (preschool*[tiab] OR toddler*[tiab] OR infant*[tiab] OR kindergarten*[tiab] OR ""early childhood""[tiab] OR ""young child*""[tiab] OR ""primary school*""[tiab] OR ""elementary school*""[tiab])"
+arxiv,genai_young,current,generative artificial intelligence young children
+arxiv,early_ed,current,ChatGPT early childhood education
+arxiv,agents,current,conversational agent preschool children
+arxiv,llm_dev,current,large language model children development
+arxiv,toys,current,AI toys children
+arxiv,primary,current,generative AI primary school pupils
+arxiv,all,any_word,"(all:children OR all:child OR all:kids OR all:preschool OR all:kindergarten) AND (all:""large language model"" OR all:chatbot OR all:""generative AI"" OR all:ChatGPT OR all:""conversational agent"")"
+openalex,young,title_abstract,"(""generative AI"" OR ""generative artificial intelligence"" OR ChatGPT OR ""large language model"" OR chatbot OR ""conversational agent"") AND (""young children"" OR preschool OR kindergarten OR ""early childhood"" OR toddler OR infant)"
+openalex,primary,title_abstract,"(""generative AI"" OR ""generative artificial intelligence"" OR ChatGPT OR ""large language model"" OR chatbot) AND (""primary school"" OR ""elementary school"")"
+openalex,toys,title_abstract,"(""AI toy"" OR ""smart toy"" OR ""AI companion"" OR ""AI-powered toy"") AND (children OR child OR kids)"
+pubmed,all,fields_no_infant,"(""generative AI""[tiab] OR ""generative artificial intelligence""[tiab] OR ChatGPT[tiab] OR ""large language model*""[tiab] OR chatbot*[tiab] OR ""conversational agent*""[tiab]) AND (preschool*[tiab] OR toddler*[tiab] OR kindergarten*[tiab] OR ""early childhood""[tiab] OR ""young child*""[tiab] OR ""primary school*""[tiab] OR ""elementary school*""[tiab])"
+openalex,young,title_abstract_no_infant,"(""generative AI"" OR ""generative artificial intelligence"" OR ChatGPT OR ""large language model"" OR chatbot OR ""conversational agent"") AND (""young children"" OR preschool OR kindergarten OR ""early childhood"" OR toddler)"

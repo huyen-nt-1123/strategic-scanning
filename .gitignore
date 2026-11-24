@@ -1,0 +1,26 @@
+# Macros and caches
+.DS_Store
+__pycache__/
+*.pyc
+.ipynb_checkpoints/
+
+# Secrets
+.env
+.env.*
+!.env.example
+
+# Virtual environment and editor state
+repo/
+.obsidian/
+
+# Personal Claude settings (CLAUDE.md and .claude/agents/ are committed)
+.claude/settings.local.json
+
+# Class notes stay local
+Class *.md
+Untitled.md
+
+# GenAI project: never commit collected or generated data, or reports
+GenAI_effects_on_children/data/
+GenAI_effects_on_children/reports/
+GenAI_effects_on_children/deliverables/

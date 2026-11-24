@@ -1,0 +1,5 @@
+source_type,weight,why
+peer_reviewed,1.0,"journals and indexed research (OpenAlex, PubMed): most credible (Class 4)"
+preprint,0.7,"arXiv: academic but not yet reviewed; earliest academic signal"
+policy,0.9,"institutions (UNICEF, OECD, WHO, EU, regulators): official positions"
+news,0.5,"Google News: fast but less checked"
